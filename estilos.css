@@ -1,0 +1,212 @@
+@media (min-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .jumbotron{
+        width: 100%;
+    }
+
+    .projetos-responsivo{
+        width: 50%;
+        float: left;
+    }
+}
+html,body{
+    height: 100%;
+}
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header{
+    height: 100%;
+    background-image: url(assets/img/decoracao2.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.header-marca{
+    display: flex;
+    
+}
+.header__img{
+    width: 50px;
+}
+.teste{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.games-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0, 0.5);  
+    color: #fff;
+    padding: 20px;
+    width: 90%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+    
+}
+@media (min-width: 768px){
+    .games-banner{
+        width: 40%;
+    }
+}
+
+@media (min-width: 992px){
+    .games-banner{
+        width: 30%;
+    }
+}
+.secao-xbox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #00ff00;
+}
+.secao-ps{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #0275d8;
+}
+.secao-xbox .titulo{
+    margin-left: 10px;
+    color: #fff;
+    
+}
+.secao-ps .titulo{
+    margin-left: 10px;
+    color: #fff;
+    
+}
+
+
+.secao-ps img{
+    width: 100px;
+    align-self: center;
+    
+}
+
+.destaque-jogos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
+.tags{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+.panel-heading{
+    cursor: pointer;
+}
+#painel-jogos{
+    margin-top: 20px;
+}
+.jumbotron__xbox{
+    background-color: #00ff00;
+    color: #fff;
+    margin-top: 20px;
+}
+.jumbotron__ps{
+    background-color: #0275d8;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.titulo-multi{
+    background-color:#0275d8;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 24px;
+    
+}
+
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    background-color: #0275d8;
+}
+
+footer{
+    background-color: #0275d8;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+footer address:last-child{
+    padding-bottom: 0;
+}
+.footer__img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer img{
+    width: 100px;
+    align-self: center;
+    margin-right: 10px;
+}
+footer p{
+    text-align: center;
+}
+
+.mdl{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.5);
+    position: absolute;
+    display: none;
+    transition: 8ms;
+    z-index: 999;
+}
+
+.fechar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px;
+    cursor: pointer;
+    color: wheat;
+}
